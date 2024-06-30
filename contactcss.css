@@ -1,0 +1,248 @@
+body,
+html
+{
+margin:0;
+padding:0;
+
+font-family:sans-serif;
+}
+textarea{
+font-family:sans-serif;
+}
+*
+{
+box-sizing:border-box;
+}
+.table{
+width:100;
+}
+.wrapper{
+width:100%;
+padding-right:15px;
+padding-left:15px;
+margin-right:auto;
+margin-left:auto;
+max-width:1140px;
+}
+.nav-links
+{
+flex:1;
+text-align:right;
+}
+.nav-links ul li{
+list-style:none;
+display:inline-block;
+padding:8px 12px;
+position:relative;
+}
+.nav-links ul li a{
+color:#000;
+text-decoration:none;
+font-size:13px;
+}
+.nav-links ul li::after
+{
+content:'';
+width:0%;
+height:2px;
+background:#f44336;
+display:block;
+margin:auto;
+transition:0.5s;
+}
+.nav-links ul li:hover::after
+{
+width:100%;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-grid{
+display:grid;
+}
+.text-center
+{
+text-align:center;
+}
+a{
+text-decoration:none;
+}
+h3,h4,h6{
+margin:0;
+padding:0;
+font-family:sana-serif;
+}
+p{
+margin:0;
+padding:0;}
+.section-gap{
+padding:4.5rem 0;
+}
+
+h3.global-title
+{
+font-size:40px;
+line-height:45px;
+color:#16191e;
+margin-bottom:50px;
+text-transform:capitalize;
+}
+
+
+.margin-up{
+margin-top:2.5rem;
+}
+h4.sub-title{
+font-size:16px;
+margin:0;
+color:#4cb1ff;
+}
+.contact-view{
+grid-template-columns:1fr 1.3fr;
+grid-gap:30px;
+}
+.cont-top{
+display:grid;
+grid-template-columns:20px auto;
+grid-column-gap:20px;}
+.twice{
+margin-bottom:20px;
+}
+.cont-details span.fa{
+font-size:20px;
+color:#4cb1ff;
+display:block;
+margin-top:3px;
+}
+.cont-details h6{
+font-size:20px;
+color:#051b35;
+font-weight:600;
+}
+.cont-details p,
+.cont-details p a{
+font-style:normal;
+font-weight:normal;
+font-size:16px;
+line-height:24px;
+color:#777777;
+margin-top:3px;
+}
+.cont-details p a:hover{
+text-decoration:underline;
+opacity:0.8;
+color:#051b35;
+}
+.cont-details address{
+margin:25px 0;
+}
+.cont-details address p{
+margin:5px 0;
+}
+.twice-two{
+display:grid;
+grid-gap:20px;
+grid-template-columns:1fr 1fr;
+margin-bottom:20px;
+}
+.map-content form input,
+.map-content form textarea{
+background:#f8f9fa;
+border:2px solid rgba(216,216,216,0.3);
+color:#777;
+font-size:16px;
+padding:12px 15px;
+width:100%;
+border-radius:4px;
+height:55px;
+}
+.map-content h5{
+font-size:25px;
+line-height:30px;
+margin-bottom:20px;
+color:#000000;
+}
+.map-content form textarea{
+resize:none;
+min-height:140px;
+}
+.map-content form input:focus,
+.map-content form textarea:focus{
+outline:none;
+border:2px solid #051b35;
+background:#fff;
+box-shadow:none;
+}
+button.btn-contact{
+border-none;
+font-size:16px;
+padding:15px 30px;
+
+margin:20px auto 0;
+color:#fff;
+background:#4cb1ff;
+border-color:#4cb1ff;
+display:inline-block;
+font-weight:400;
+text-align:center;
+vertical-align:middle;
+cursor:pointer;
+user-select:none;
+border:1px solid transparent;
+border-radius:0.25rem;
+}
+.cont-details h6 a{
+color:#051b35}
+
+
+nav{
+  position: fixed;
+  
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+
+
+
+
+
